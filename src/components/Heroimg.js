@@ -13,21 +13,35 @@ const HeroImg = () => {
             src={HomeHeroImg} alt="HomeHeroImg" />
         </div>
         <div className="content">
-            <p>ሻሎም ወሓዚ ህይወት ቤተክርስትያን</p>
+            <h1>ሻሎም ወሓዚ ህይወት ቤተክርስትያን</h1>
             <p>ካምፓላ, ኡጋንዳ</p>
-            <div>
+            <div className="circular-menu">
+                <div className="circular" >
                 <Link to="/SemunawiMedebat" className="btn-circular">
                     ሰሙናዊ መደባት
                 </Link>
+                </div>
+                
+                <div className="circular" >
                 <Link to="/SemunawiMedebat" className="btn-circular">
                     ታሪኽ ቤተክርስትያን 
                 </Link>
+                </div>
+                
+
+                <div className="circular" >
                 <Link to="/SemunawiMedebat" className="btn-circular">
                     ሰረተ እምነት
                 </Link>
+                </div>
+                
+
+                <div className="circular" >
                 <Link to="/SemunawiMedebat" className="btn-circular">
                     ቃል ጓሳ ማሕበር
                 </Link>
+                </div>
+                
             </div>
         </div>
     </div>

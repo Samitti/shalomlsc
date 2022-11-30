@@ -2,7 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0.4rem;
+}
+
+.logo-img {
+    width: 30px;
+    margin: 0 1rem;
 }
 
 .nav-menu{

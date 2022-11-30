@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {FaBars, FaTimes} from "react-icons/fa";
 
+import LogoImg from "../assets/logo.png";
 import "./Navbar.css";
 
 
@@ -12,7 +13,8 @@ const Navbar = () => {
   return (
     <div className='header'>
       <Link to="/">
-        <h1>Portofolio</h1>
+      <img className="logo-img"
+            src={LogoImg} alt="LogoImg" />
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>

@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #0335ff;
+  background: hwb(228 7% 59%);
 }
 
 h1, h4, p, a {
