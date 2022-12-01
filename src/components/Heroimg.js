@@ -17,27 +17,27 @@ const HeroImg = () => {
             <p>ካምፓላ, ኡጋንዳ</p>
             <div className="circular-menu">
                 <div className="circular" >
-                <Link to="/SemunawiMedebat" className="btn-circular">
+                <Link to="/ሰሙናዊ-መደባት" className="btn-circular">
                     ሰሙናዊ መደባት
                 </Link>
                 </div>
                 
                 <div className="circular" >
-                <Link to="/SemunawiMedebat" className="btn-circular">
+                <Link to="/ታሪኽ-ቤተክርስትያን" className="btn-circular">
                     ታሪኽ ቤተክርስትያን 
                 </Link>
                 </div>
                 
 
                 <div className="circular" >
-                <Link to="/SemunawiMedebat" className="btn-circular">
+                <Link to="/ሰረተ-እምነት" className="btn-circular">
                     ሰረተ እምነት
                 </Link>
                 </div>
                 
 
                 <div className="circular" >
-                <Link to="/SemunawiMedebat" className="btn-circular">
+                <Link to="/ቃል-ጓሳ-ማሕበር" className="btn-circular">
                     ቃል ጓሳ ማሕበር
                 </Link>
                 </div>

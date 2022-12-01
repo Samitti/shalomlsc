@@ -12,19 +12,19 @@ const HeroImgLower = () => {
             <h1>ኣገዳሲ ሓበሬታ</h1>
             <div className="circular-menu">
                 <div className="circular" >
-                <Link to="/SemunawiMedebat" className="btn-circular">
+                <Link to="/ንመውስቦ-ዘድሊ-ቅጥዒ" className="btn-circular">
                     ንመውስቦ ዘድሊ ቅጥዒ
                 </Link>
                 </div>
                 
                 <div className="circular" >
-                <Link to="/SemunawiMedebat" className="btn-circular">
+                <Link to="/ጸሎት" className="btn-circular">
                     ጸሎት
                 </Link>
                 </div>                
 
                 <div className="circular" >
-                <Link to="/SemunawiMedebat" className="btn-circular">
+                <Link to="/ተወሳኺ-ሓበሬታ" className="btn-circular">
                     ተወሳኺ ሓበሬታ
                 </Link>
                 </div>                

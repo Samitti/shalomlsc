@@ -7,18 +7,20 @@ import SereteEmnet from "./routes/SereteEmnet";
 import TarikBetekrstyan from "./routes/TarikBetekrstyan";
 import Xelot from "./routes/Xelot";
 import { Routes,Route } from "react-router-dom";
+import TewesakiHaberieta from "./routes/TewesakiHaberieta";
 
 const  App = () => {
   return (
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/SemunawiMedebat" element={<SemunawiMedebat />} />
-        <Route path="/NmewsboZedliQtie" element={<NmewsboZedliQtie />} />
-        <Route path="/QalGuasaMahber" element={<QalGuasaMahber />} />
-        <Route path="/SereteEmnet" element={<SereteEmnet />} />
-        <Route path="/TarikBetekrstyan" element={<TarikBetekrstyan />} />
-        <Route path="/Xelot" element={<Xelot />} />
+        <Route path="/ሰሙናዊ-መደባት" element={<SemunawiMedebat />} />
+        <Route path="/ንመውስቦ-ዘድሊ-ቅጥዒ" element={<NmewsboZedliQtie />} />
+        <Route path="/ቃል-ጓሳ-ማሕበር" element={<QalGuasaMahber />} />
+        <Route path="/ሰረተ-እምነት" element={<SereteEmnet />} />
+        <Route path="/ታሪኽ-ቤተክርስትያን" element={<TarikBetekrstyan />} />
+        <Route path="/ተወሳኺ-ሓበሬታ" element={<TewesakiHaberieta />} />
+        <Route path="/ጸሎት" element={<Xelot />} />
       </Routes>
     </>
   );
