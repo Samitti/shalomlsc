@@ -1,0 +1,85 @@
+.semunawi-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    color: #6ec1e4;
+    background-color: white;
+
+}
+
+.semunawi-container .heading h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #6ec1e4;
+} 
+.semunawi-container .heading p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #7a7a7a;
+    text-align: center;
+} 
+
+.semunawi-list {
+    display: flex;
+    justify-content: left;
+    min-width: 700px;
+    max-width: 700px;
+    margin-top: 3rem;
+}
+
+.semunawi-container .semunawi-list-swicher{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.semunawi-container .li-title {
+    display: flex;
+   }
+
+.semunawi-container .li-title p {
+    display: flex;
+    color: #6ec1e4;
+}
+
+.semunawi-container .li-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.semunawi-container .li-detail p {
+    display: flex;
+    color: #545655;
+}
+
+.semunawi-container .li-detail-title {
+    color: #7ad398;
+    display: flex;
+}
+
+.semunawi-container .li-detail-title p {
+    color: #7ad398;
+    display: flex;
+}
+
+.semunawi-container li p {
+    font-size: 1.2rem;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .semunawi-list {
+        display: flex;
+        justify-content: left;
+        min-width: 80vw;
+        max-width: 700px;
+        margin-top: 3rem;
+    }
+}
+

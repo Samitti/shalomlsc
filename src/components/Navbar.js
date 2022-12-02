@@ -30,7 +30,23 @@ const Navbar = () => {
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <Link to="/">Home</Link>
-        </li>        
+        </li>   
+         
+        <li>
+          <Link to="/ታሪኽ-ቤተክርስትያን">ታሪኽ ቤተክርስትያን</Link>
+        </li>   
+        <li>
+          <Link to="/ሰረተ-እምነት">ሰረተ እምነት</Link>
+        </li>  
+        <li>
+          <Link to="/ቃል-ጓሳ-ማሕበር">ቃል ጓሳ ማሕበር</Link>
+        </li>   
+        <li>
+          <Link to="/ንመውስቦ-ዘድሊ-ቅጥዒ">ንመውስቦ ዘድሊ ቅጥዒ</Link>
+        </li>  
+        <li>
+          <Link to="/ተወሳኺ-ሓበሬታ">ተወሳኺ ሓበሬታ</Link>
+        </li>   
       </ul>
       <div className='hamburger' onClick={handleClick}>
         {click ? (
