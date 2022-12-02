@@ -31,6 +31,10 @@
     max-width: 700px;
     margin-top: 3rem;
 }
+.semunawi-list ul{
+    width: 90%;
+
+}
 
 .semunawi-container .semunawi-list-swicher{
     display: flex;
@@ -40,6 +44,7 @@
 
 .semunawi-container .li-title {
     display: flex;
+    cursor: pointer;
    }
 
 .semunawi-container .li-title p {
@@ -54,12 +59,14 @@
 
 .semunawi-container .li-detail p {
     display: flex;
-    color: #545655;
+    color: #7a7a7a;
+    margin-bottom: 3rem;
 }
 
 .semunawi-container .li-detail-title {
     color: #7ad398;
     display: flex;
+    cursor: pointer;
 }
 
 .semunawi-container .li-detail-title p {
@@ -68,9 +75,66 @@
 }
 
 .semunawi-container li p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
+.semunawi-container .li-detail-title-list {
+    padding-left: 1rem;
+}
+
+.semunawi-container .li-detail-title-list .place-title {
+    font-weight: 900;
+    text-decoration: underline;
+} 
+
+.semunawi-container .li-detail-title-list  .place-sub-title {
+    text-decoration: underline;
+}
+
+.semunawi-container .li-detail-title-list .place-list {
+    padding-left: 3rem;
+}
+.semunawi-container .li-detail-title-list .place-list li {
+    margin-bottom: 1rem;
+}
+
+.horiz-line {
+    margin: 1rem;
+    width: 100%;
+}
+
+ .video-container {   
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.semunawi-container .icon-star {
+    margin: 1rem;
+}
+
+.semunawi-container .video-frame {
+    width: 600px;
+    height: 300px;
+
+}
+
+.semunawi-container .action-btn {
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem;
+}
+
+.semunawi-container .action-btn .btn-lnk {
+    border: none;
+    padding: 1rem 2.5rem;
+    background-color: #05e810;
+    font-size: large;
+    color: white;border-radius: 5px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
 
 
 @media screen and (max-width: 800px) {
@@ -80,6 +144,17 @@
         min-width: 80vw;
         max-width: 700px;
         margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .semunawi-list .li-detail-title-list p {
+        font-size: 15px;
+    }
+    .semunawi-container .video-frame {
+        width: 400px;
+        height: 250px;
+    
     }
 }
 
