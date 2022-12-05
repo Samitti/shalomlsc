@@ -1,6 +1,6 @@
 .main-container {
     width: 100%;
-    padding: 40px;
+    padding: 50px;
     background-color: #ffffff;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@ p .bold-underline {
 .expand-verse {
     border: solid #7a7a7a 1px;
     width: 100%;
-
+    cursor: pointer;
 }
 
 .verse {
@@ -101,6 +101,7 @@ p .bold-underline {
 .tarik-cotainer .slide-show p {
    color: #6ec1e4;
    font-weight: 600;
+   text-align: center;
 }
 
 .tarik-cotainer .image-logo {
@@ -127,6 +128,44 @@ p .bold-underline {
     line-height: 1.8;
 }
 
+.final-notice {
+    display: flex;
+    flex-direction: column;
+}
+
+.final-notice h4 {
+    color: #6ec1e4;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    align-self: center;
+    font-size: large;
+}
+
+.final-notice .blue-bg {
+    background-color: #d9edf7;
+    border-left: solid 6px #acddf5;
+    padding: 20px;
+}
+
+.final-notice p {
+    font-size: small;
+    color: #4d819e;
+}
+
+.final-notice span {
+    color: #3c7898;
+    font-weight: 600;
+}
+
+.slides {
+    width: 100%;
+}
+
+
+.image-slide {
+    text-align: center;
+    width: 100%;
+}
 
 
 

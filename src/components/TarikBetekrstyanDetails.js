@@ -7,6 +7,7 @@ import ImageFour from "../assets/singers-together.jpg";
 import ImageFive from "../assets/building-blessing.jpg";
 import SlideShow from "../assets/constraction.jpg";
 import ImageSix from "../assets/logo.png";
+import Slideshow from "./Slideshow.js"
 import {AiOutlineMinus, AiOutlinePlus} from "react-icons/ai";
 
 const TarikBetekrstyanDetails = () => {
@@ -136,12 +137,11 @@ const TarikBetekrstyanDetails = () => {
         <div className='slide-show'>
           <p>
           መስርሕ ህንጻ ሻሎም ወሓዚ ህይወት ቤ/ክ ካብ መሰረት ክሳዕ መፈጸምታ ዝነበረ ገለ ካብ ሰነዳት
-          </p>
-          <div className='img-container'>
-            <img className="slide-show img-all"
-              src={SlideShow} alt="constraction-images" />
-          </div>        
+          </p>                       
         </div>
+        <div className='slides'>
+             <Slideshow />
+          </div>  
         <p>
         እዚ ኩሉ ከም ታሪኽ እተሰነደ ሓቂ ሕጂ ድሕሪ ነዊሕ ግዜ ክንርእዮ ከሎና ናይ ብሓቂ ህይወት ለቢሱ ጎይታ ከምቲ ዝበሎ ህዝብና ኣብ ዝኸዶ ክርስቶሳዊ ጽልዋ ከምጽእ ምኽኣሉ ዘሓጉስ ተስፋ ዝመልእ ተርእዮ እዩ። ናይ ሻሎም ወሓዚ ህይወት ቤተክርስትያን ሎጎ(LOGO) ኣብዚ ጥቅሲ እተመርኮሰ እዩ።
         </p>
@@ -191,9 +191,10 @@ const TarikBetekrstyanDetails = () => {
             <li>ፓስቶር ኣስመሮም ገብረገርግሽ(ኤልያስ)  ካብ 2013 ክሳብ ሕጂ</li>
           </ol>
         </div>
+        
         <div className='final-notice'>
           <h4>ስም ኣምላኽ ንዘለኣለም ይባረኽ!</h4>
-          <div>
+          <div className='blue-bg'>
             <span>ኣገዳሲ ሓበሬታ</span>
             <p>
             ሻሎም ወሓዚ ህይወት ቤተክርስትያን ካምፓላ ኡጋንዳ ካብ ጻላል ዝኮነ ኣካል ነጻ ዝኾነት መኽሰብ ኣብ ምግባር ዘተኮረ ኣገልግሎት ዘይብላ ማሐበር እያ። እዛ ማሕበር ነቶም ዘይደሓኑ ክድሕኑ፡ እቶም ዝደሓኑ ድማ ደቀ-መዝሙር ክርስቶስ ብምግባር ነቲ ግብሪ ኣገልግሎት ብቁዓት ክኾኑ ብኩሉ ጸሎትን ሕብረትን ብቓልን ክውን ክኸውን ትተግህ።
