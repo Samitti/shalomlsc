@@ -1,8 +1,6 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import HeroImg from '../components/Heroimg'
 import HeroimgAll from '../components/HeroimgAll'
-import HeroImgLower from '../components/HeroimgLower'
 import Navbar from '../components/Navbar'
 
 function NmewsboZedliQtie() {

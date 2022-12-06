@@ -2,7 +2,6 @@ import "./HeroimgLowerStyles.css";
 
 import React from 'react'
 
-import HomeHeroImg from "../assets/home_hero.jpg"
 import { Link } from "react-router-dom";
  
 const HeroImgLower = () => {

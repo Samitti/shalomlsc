@@ -1,15 +1,16 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import HeroImg from '../components/Heroimg'
-import HeroImgLower from '../components/HeroimgLower'
 import Navbar from '../components/Navbar'
 import HeroimgAll from '../components/HeroimgAll'
+import SereteEmnetDetails from '../components/SereteEmnetDetails.js'
+
 
 function SereteEmnet() {
   return (
     <div>
       <Navbar />
       <HeroimgAll heading="ሰረተ እምነት" />
+      <SereteEmnetDetails />
       <Footer />
     </div>
   )

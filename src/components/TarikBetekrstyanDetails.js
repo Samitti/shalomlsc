@@ -5,7 +5,6 @@ import ImageTwo from "../assets/kampala-uganda.jpg";
 import ImageThree from "../assets/vision-church.jpg";
 import ImageFour from "../assets/singers-together.jpg";
 import ImageFive from "../assets/building-blessing.jpg";
-import SlideShow from "../assets/constraction.jpg";
 import ImageSix from "../assets/logo.png";
 import Slideshow from "./Slideshow.js"
 import {AiOutlineMinus, AiOutlinePlus} from "react-icons/ai";
