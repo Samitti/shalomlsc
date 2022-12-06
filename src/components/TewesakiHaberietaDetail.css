@@ -1,0 +1,41 @@
+.white-bg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.habereta-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    min-width: 700px;
+    max-width: 700px;
+    margin: 4rem 3rem;
+}
+
+.habereta-container h1 {
+    color: #6ec1e4;
+    font-weight: 400
+}
+
+.habereta-container li {
+    display: flex;
+    margin: 2rem 1rem;
+    align-items: center;
+}
+
+.habereta-container p {
+    color: #6ec1e4;
+    font-size: 20px;
+    margin-left: 2rem;
+}
+
+
+@media screen and (max-width: 800px) {
+    .habereta-container {
+        min-width: 80vw;
+        max-width: 700px;
+    }
+}

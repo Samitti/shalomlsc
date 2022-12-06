@@ -1,0 +1,47 @@
+.bg-container {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+    
+.bg-container .main-container {
+    color: gray;
+    max-width: 800px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-container .main-container h1{
+    color: #6ec1e4;
+}
+
+.main-container .img-container {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.main-container .img-container .image-pr{
+    width: 100%;
+}
+
+.main-container .img-container span {
+    font-style: italic;
+    font-size: 0.9rem;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+.main-container .pr-msg span {
+    color: red;
+}
+
+.main-container .pr-msg a {
+    color: red;
+    cursor: pointer;
+}
+
