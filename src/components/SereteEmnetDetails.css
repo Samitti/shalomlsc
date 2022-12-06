@@ -1,0 +1,129 @@
+.bg-container {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+    
+.bg-container .main-container {
+    max-width: 800px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-container .main-container hr {
+    margin: 5rem;
+    color: grey;
+    width: 100%;
+}
+
+.main-container .main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .main-title h1 {
+    text-align: center;
+}
+
+.main-container .vision-state {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    box-shadow: 0 0 20px rgb(0 0 0 / 0.6);
+    padding-bottom: 10px;
+}
+
+.main-container .vision-state:hover {
+    background-color: rgb(213, 210, 210);
+}
+
+.main-container .vision-state p {
+    padding: 0;
+    margin: 10px;
+
+}
+
+.main-container .vision-state .logo-desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container .vision-state .logo-desc .church-name p {
+    margin: 0 10px;
+    color: #6ec1e4;
+}
+
+.main-container .vision-state .logo-desc .church-name span {
+    margin: 0 10px;
+    color: gray;
+}
+
+.main-container .vision-state .image-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.main-title h1 {
+    color: #6ec1e4;
+    font-size: 3rem;
+    margin-left: 10px;
+}
+
+.main-container .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.main-container .img-container .img-all{
+    width: 100%;
+}
+
+.balance-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.balance-container {
+    margin: 20px;
+    padding: 15px;
+    background-color: #6ec1e4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.balance-title h1 {
+    font-size: x-large;
+    margin-bottom: 15px;
+}
+
+.main-container .serete-list {
+    padding: 2rem 3rem;
+    border: 2px solid #6ec1e4;
+    border-radius: 50px;
+    color: grey;
+    background-color:#f3f2f2;
+    align-self: center;
+}
+
+.main-container .serete-list li {
+    margin-bottom: 8px;
+}
+
+.main-container .star-rating {
+    display: flex;
+    margin-top: 2rem;
+}
