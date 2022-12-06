@@ -10,15 +10,15 @@ const TewesakiHaberietaDetail = () => {
       <h1>ተወሳኺ ሓበሬታ</h1>
       <ul>
         <li>
-          <BsMailbox className='icon-star' size={30} style={{color: "#fcc602"}} />
+          <BsMailbox className='icon-star' size={30} style={{color: "#6ec1e4"}} />
           <p>P.O Box 34347</p>
         </li>
         <li>
-          <BsFillTelephoneFill className='icon-star' size={30} style={{color: "#fcc602"}} />    
+          <BsFillTelephoneFill className='icon-star' size={30} style={{color: "#6ec1e4"}} />    
           <p>+256703449895 / +256703821605</p>
         </li>
         <li>
-          <MdEmail className='icon-star' size={30} style={{color: "#fcc602"}} />
+          <MdEmail className='icon-star' size={30} style={{color: "#6ec1e4"}} />
           <p>shalomlifestreamug@gmail.com</p>
         </li>
       </ul>

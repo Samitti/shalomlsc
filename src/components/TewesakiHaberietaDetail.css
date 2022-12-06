@@ -23,6 +23,7 @@
 .habereta-container li {
     display: flex;
     margin: 2rem 1rem;
+    align-items: center;
 }
 
 .habereta-container p {

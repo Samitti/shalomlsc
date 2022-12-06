@@ -28,7 +28,6 @@ const SemunawiDetail = () => {
         </div>
         <div className='semunawi-list'>
             <ul>       
-                <hr className='horiz-line'/>         
                 <li className='semunawi-list-swicher' onClick={handleClick}>
                     {click1 ? 
                     <div className='li-detail'>

@@ -29,8 +29,8 @@
     justify-content: left;
     min-width: 700px;
     max-width: 700px;
-    margin-top: 3rem;
 }
+
 .semunawi-list ul{
     width: 90%;
 
@@ -45,11 +45,14 @@
 .semunawi-container .li-title {
     display: flex;
     cursor: pointer;
+    align-items: center;
+
    }
 
 .semunawi-container .li-title p {
     display: flex;
     color: #6ec1e4;
+
 }
 
 .semunawi-container .li-detail {
@@ -60,13 +63,13 @@
 .semunawi-container .li-detail p {
     display: flex;
     color: #7a7a7a;
-    margin-bottom: 3rem;
 }
 
 .semunawi-container .li-detail-title {
     color: #7ad398;
     display: flex;
     cursor: pointer;
+    align-items: center;
 }
 
 .semunawi-container .li-detail-title p {
@@ -87,6 +90,7 @@
     text-decoration: underline;
 } 
 
+
 .semunawi-container .li-detail-title-list  .place-sub-title {
     text-decoration: underline;
 }
@@ -99,7 +103,8 @@
 }
 
 .horiz-line {
-    margin: 1rem;
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 
